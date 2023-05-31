@@ -3,6 +3,15 @@
     border-style: dotted;
 }
 
+/*Display grid switch style*/
+a:active {
+    background-color: lightseagreen;
+  }
+
+
+/*nav bar buttons style*/
+
+
 /*post style*/
 
 .container-style{
