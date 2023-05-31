@@ -1,4 +1,25 @@
-*{
+/*{
     border: blue;
     border-style: dotted;
+}
+
+/*post style*/
+
+.container-style{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.post-header{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.post-social{
+    font-size: medium;
+    font-weight: bold;
+}
+
+img{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
