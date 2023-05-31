@@ -38,10 +38,56 @@
                         </div>
                     </div>
 
-                    <!--Create new post button-->
-                    <div>
-                        <button type="button" class="btn btn-success">Create a new post</button>
+                    <!--Modal trigger-->
+                    <section class="bg-light">
+                        <div class="container">
+
+                            <div class="row justify-content-center">
+                                <div class=" text-center">
+                                    <button class="btn btn-success" data-bs-toggle="modal"
+                                        data-bs-target="#reg-modal">Create a new post</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!--Modal itself-->
+                    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title"
+                        aria-hidden="true">
+                        <!--Div for dialog-->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!--Modal header-->
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Create a new post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!--Modal body-->
+                                <div class="modal-body">
+                                    <label for="modal-caption" class="form-label">Caption:</label>
+                                    <input type="text" class="form-control" id="modal-content"
+                                        placeholder="Add the caption of your post here">
+                                </div>
+                                <!--Modal icons-->
+                                <div class="modal-icons">
+
+                                    <span><button class="btn border-secondary"><i class="fa fa-camera"
+                                                style="font-size:18px"></i></button></span>
+                                    <span><button class="btn border-secondary"><i class="fa fa-map-marker"
+                                                style="font-size:18px"></i></button></span>
+                                </div>
+
+                                <!--Modal footer-->
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button class="btn btn-success" data-bs-dismiss="modal">Publish</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                     <!--Dropdown button-->
                     <div>
                         <div class="dropdown">
@@ -54,7 +100,8 @@
                                 <li><a class="dropdown-item" href="#">Profile</a></li>
                                 <li><a class="dropdown-item" href="#">Accesibility</a></li>
                                 <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-                                <li><a class="dropdown-item" href="#">Log out</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
                             </ul>
                         </div>
                     </div>
@@ -85,8 +132,8 @@
         <!--Post header-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6 clearfix">
-                    <div class="pull-left"><span class="post-header">My crazy dog Spark!</span></div>
-                    <div class="pull-right"><span>Jan 15</span></div>
+                <div class="pull-left"><span class="post-header">My crazy dog Spark!</span></div>
+                <div class="pull-right"><span>Jan 15</span></div>
             </div>
         </div>
         <!--Post image-->
@@ -99,15 +146,15 @@
         <!--Post social-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                    <div class="pull-left"><span class="post-social">87 likes</span></div>
+                <div class="pull-left"><span class="post-social">87 likes</span></div>
             </div>
         </div>
         <!--Post description-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                    <div>
-                        <p>Example of photo description when scrolling down through in the instagram feed.</p>
-                    </div>
+                <div>
+                    <p>Example of photo description when scrolling down through in the instagram feed.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -118,8 +165,8 @@
         <!--Post header-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6 clearfix">
-                    <div class="pull-left"><span class="post-header">What a view...</span></div>
-                    <div class="pull-right"><span>Jan 23</span></div>
+                <div class="pull-left"><span class="post-header">What a view...</span></div>
+                <div class="pull-right"><span>Jan 23</span></div>
             </div>
         </div>
         <!--Post image-->
@@ -132,15 +179,15 @@
         <!--Post social-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                    <div class="pull-left"><span class="post-social">38 likes</span></div>
+                <div class="pull-left"><span class="post-social">38 likes</span></div>
             </div>
         </div>
         <!--Post description-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                    <div>
-                        <p>Example of photo description when scrolling down through in the instagram feed.</p>
-                    </div>
+                <div>
+                    <p>Example of photo description when scrolling down through in the instagram feed.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -151,8 +198,8 @@
         <!--Post header-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6 clearfix">
-                    <div class="pull-left"><span class="post-header">Love me some fresh air!</span></div>
-                    <div class="pull-right"><span>Feb 07</span></div>
+                <div class="pull-left"><span class="post-header">Love me some fresh air!</span></div>
+                <div class="pull-right"><span>Feb 07</span></div>
             </div>
         </div>
         <!--Post image-->
@@ -165,15 +212,15 @@
         <!--Post social-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                    <div class="pull-left"><span class="post-social">40 likes</span></div>
+                <div class="pull-left"><span class="post-social">40 likes</span></div>
             </div>
         </div>
         <!--Post description-->
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-                    <div>
-                        <p>Example of photo description when scrolling down through in the instagram feed.</p>
-                    </div>
+                <div>
+                    <p>Example of photo description when scrolling down through in the instagram feed.</p>
+                </div>
             </div>
         </div>
     </div>
