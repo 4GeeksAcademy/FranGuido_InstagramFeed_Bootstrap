@@ -4,12 +4,14 @@
 }
 
 /*Display grid switch style*/
-a:active {
-    background-color: lightseagreen;
-  }
 
 
 /*nav bar buttons style*/
+
+
+.modal-icons{
+    padding-left: 3%;
+}
 
 
 /*post style*/

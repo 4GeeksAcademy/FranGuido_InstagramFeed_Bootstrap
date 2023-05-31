@@ -39,12 +39,57 @@
                         </div>
                     </div>
 
-                    <!--Create new post button-->
-                    <div>
-                        <button type="button" class="btn btn-success">Create a new post</button>
+                    <!--Modal trigger-->
+                    <section class="bg-light">
+                        <div class="container">
+
+                            <div class="row justify-content-center">
+                                <div class=" text-center">
+                                    <button class="btn btn-success" data-bs-toggle="modal"
+                                        data-bs-target="#reg-modal">Create a new post</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!--Modal itself-->
+                    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title"
+                        aria-hidden="true">
+                        <!--Div for dialog-->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!--Modal header-->
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Create a new post</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!--Modal body-->
+                                <div class="modal-body">
+                                    <label for="modal-caption" class="form-label">Caption:</label>
+                                    <input type="text" class="form-control" id="modal-content"
+                                        placeholder="Add the caption of your post here">
+                                </div>
+                                <!--Modal icons-->
+                                <div class="modal-icons">
+
+                                    <span><button class="btn border-secondary"><i class="fa fa-camera"
+                                                style="font-size:18px"></i></button></span>
+                                    <span><button class="btn border-secondary"><i class="fa fa-map-marker"
+                                                style="font-size:18px"></i></button></span>
+                                </div>
+
+                                <!--Modal footer-->
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button class="btn btn-success" data-bs-dismiss="modal">Publish</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                  
+
 
 
                     <!--Dropdown button-->
@@ -135,7 +180,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </body>
 
